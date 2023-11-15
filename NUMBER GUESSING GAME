@@ -1,12 +1,11 @@
 #include<bits/stdc++.h>
 #define ll long long int 
 using namespace std;
-//void print(vector<int> v);
 int main()
 {
     cout<<"WELCOME TO THE NUMBER GUESSING GAME!\n";
     cout<<"We have a secret number between 1 and 100 with us. Can you guess it?\n";
-    cout<<"Choose your difficulty level according to the following menu:\n";
+    cout<<"Choose your difficulty level:\n";
     cout<<"1-----Easy\n";
     cout<<"2-----Medium\n";
     cout<<"3-----Hard\n";
