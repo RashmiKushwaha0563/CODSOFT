@@ -35,7 +35,7 @@ int main()
         string s;
         cin>>s;
         v.push_back(s);
-        cout<<"Your new list is as follows:\n";
+        cout<<"Here is your new list:\n";
         display(v);
       }
 
@@ -84,15 +84,11 @@ int main()
       }
     }
  }
-    
-
 void display(vector<string> vec)
 {
     for(int i=0; i<vec.size(); i++)
     {
         if(vec[i]!="exit")
         cout<<vec[i]<<"\n";
-        
-
     }
 }
